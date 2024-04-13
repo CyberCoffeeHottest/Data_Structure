@@ -1,0 +1,10 @@
+struct Node {
+  int data;
+  Node*next;
+};
+
+Noce* head = nullptr;
+Node* newNode = new Node();
+newNode ->data = 10;
+newNode ->next = nullptr;
+head = newNode;
