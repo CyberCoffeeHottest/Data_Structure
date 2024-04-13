@@ -1,0 +1,8 @@
+import java.util.Stack;
+
+Stack<integer> stack = new Stack <> ();
+stack.push(1);
+stack´push(2);
+stack.push(3);
+System.out.println(stack.peek()); // Output: 3
+stack.pop();
