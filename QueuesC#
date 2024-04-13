@@ -1,0 +1,9 @@
+using System;
+using System.Collections.Generic;
+
+Queu<string> queue = new Queue<string>();
+queue.Enqueue("Apple");
+queue.Enqueue("Banana);
+queu.Enqueu("Orange");
+Console.WriteLine(queue.Peek()); // Output: Apple
+queue.Dequeue();
