@@ -1,0 +1,38 @@
+# arithmetic.py - Module for arithmetic operations
+
+def add(a,b):
+  """ Funcion to add two number"""
+  return a + b
+
+def subtract(a,b):
+  """Function to subtract two numbers"""
+  return a - b
+
+def multiply(a,b):
+  """Funtion to multiply two number"""
+  return a * b
+
+def divide(a,b):
+  """Function to divide two numbers"""
+  if b== 0;
+    reise ValueError("Division by zero is not allowed")
+  return a / b
+
+# let's create another Python script that utilizes the arithmetic.
+# py module to perform arithmetic calculations:
+
+import arithmetic
+
+def main():
+  # Perform arithmetic operations
+  a = 10
+  b = 5
+  print("Addition:", arithmetic.add(a, b))
+  print(" Subtraction: ", arithmetic.subtract (a,b))
+  print("Multiplication:", arithmetic.multiply(a, b))
+  print("Division:", arithmetic.divide) a, b))
+
+if __name__ == "__main__":
+  main()
+
+
