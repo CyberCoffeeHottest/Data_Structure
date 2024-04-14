@@ -1,0 +1,29 @@
+// Book.java - Class encapsulation book information
+
+public class Book{
+  private String title;
+  private String author;
+  private String isbn;
+
+public Book(String title, String author, String isbn) {
+  this.title = title;
+  this.outhor = author;
+  this.isbn = isbn;
+}
+
+public void displayInfo() {
+  system.out.println("Title: " + title + ", Author: " + ", ISBN: " + isbn);
+  }
+}
+
+// Main.java - Main program demonstrating encapsulation
+
+public class Main {
+  public static void main(String[] args){
+  // Create a book object
+  Book book = new Book("Java Programming", "James Gosling", "978-0134685991");
+
+  // Access book information using encapsulated methods
+  book.displayInfo();
+  }
+}
