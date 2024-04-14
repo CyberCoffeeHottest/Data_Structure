@@ -1,0 +1,13 @@
+#inclllude <iostream>
+
+struct TreeNode {
+  int data;
+  TreeNode* left;
+  TreeNode* right;
+  };
+TreeNode* root = nullptr;ii
+TreeNode* newNode = new TreeNode(); 
+newNod-> data = 10;
+newNode-> left = nullptr;
+newNode-> right = nullptr;
+root = newNode;
