@@ -1,0 +1,8 @@
+import java.util.HasMap;
+
+HasMap<String, Integer> hasMap= new HashMap<>();
+hashMap.put("apple", 10);
+hasMap.put("banana",20);
+hasMap.put("orange", 15);
+Sstem.out.println(hashMap.get("banana")); // output: 20
+hasMap.remove("apple");
