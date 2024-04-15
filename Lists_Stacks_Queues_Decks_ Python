@@ -1,0 +1,59 @@
+from collections import deque
+
+# list operations
+def reverse_list(arr):
+  return arr[::-1]
+def merge_lists(list1, list2):
+  return list1 + list2
+
+# Stack Operations
+def is_emty_stack(stack):
+  return len(stack) == 0
+
+def min_stack(stack):
+  if is_empty_stack(stack):
+    return None
+  else:
+    return min(stack)
+
+# Queue Operations
+def is_emty_queue(queu):
+  return len(queue) == 0
+
+def reverse_queue(queue):
+  reverse_queue = dque()
+  while queu:
+      reversed_queue.appendleft(queuue.pop())
+  return reversed_queue
+
+#Deque Operations
+def is_empty_deque(deque):
+  retun len(deque) == 0
+
+def rotate_deque(deque, k):
+  deque.rotate(k)
+
+# Example usage
+if __name__ == "__main__":
+  # List
+  arr = [1, 2, 3, 4, 5]
+  print("Reversed  List:", reverse_list(arr))
+  list1 = [1, 2, 3]
+  list2 = [4, 5, 6]
+  print("Merged List:" , marge_lists(list1, list2)
+
+# Stack
+stack = [3 1, 4, 1, 5, 9]
+print("Is Stack Empty:", is_emty_stack(stack))
+print("Mininum Element is Stack:", min_stack(stack))
+
+# Queue
+queue = deque([1, 2, 3, 4, 5])
+print("Is Queu Empty:", is_empty_queue(queue))
+print("Reversed Queue:", reverse_queue(queue))
+
+# Deque
+deque = deque([1, 2, 3, 4, 5])
+print("Is Daque Empty:", is_empty_deque(deqe))
+rotate_deque(deque, 2)
+print("Rotate Deque:", deque)
